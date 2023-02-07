@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Comatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Portfolio</title>
+        <link rel="stylesheet" href="procss.css">
+        <script src="https://kit.fontawesome.com/07eced4147.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <nav>
+                    <img src="logo2.jpg" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href='#'>Home</a></li>
+                        <li><a href='#'>About</a></li>
+                        <li><a href='#'>Services</a></li>
+                        <li><a href='#'>Portfolio</a></li>
+                        <li><a href='#'>Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div id="text">
+                <div class="header-text">
+                    <p>UI Designer</p>
+                    <h1>Hi, I'm <span>Gopikanth</span> <br> from INDIA</h1>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- --------about-------- -->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="me.jpg" class="header1">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p style="font-size: 18px;"><br>I am a dedicated and driven student with a passion for computer science.
+                            I am currently pursuing a B.Tech at LBRCE.
+                            Through my coursework and extracurricular activities, I have developed strong Problem-solving skills, Communication and teamwork abilities,
+                            Adaptability and flexibility,Technical skills in programming languages, software, or tools,Leadership and management qualities Analytical and research skills
+                            and Creativity and innovation. I am eager to apply what I have learned in a real-world setting. I am confident that my drive and determination will enable me
+                             to achieve my goals and make a positive impact in my future career.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('projects')">Projects</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI</span><br>Designing Web Interfaces</li>
+                                <li><span>Web Development</span><br>Web app Development</li>
+                                <li><span>Machine Learning</span><br>Prediction Projects</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2019</span><br>Secondary School at J.Sikile School</li>
+                                <li><span>2021</span><br>Inter at SVS Junior College</li>
+                                <li><span>2023</span><br>B.Tech at LBRCE</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="projects">
+                            <ul>
+                                <li><span>ML</span><br>Disease prediction</li>
+                                <li><span>python</span><br>Telegram bot</li>
+                                <li><span>Web Development</span><br>Hotel website</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- --------services-------- -->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <h5 style="color: #ccee4e">Hotel Website</h5>
+                        <p>As a web designer, I have designed a hotel website that showcases the hotel's facilities, rooms, services, and offerings to potential guests. The website features a clear and user-friendly navigation structure that makes it easy for guests to find the information they need. </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-python"></i>
+                        <h2>Python</h2>
+                        <h5 style="color: #ccee4e">Voice Assistant</h5>
+                        <p>As a software developer, I have designed a Python-based voice assistant application. The application allows users to interact with it using voice commands, and it is capable of performing a certain range of tasks.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-squarespace"></i>
+                        <h2>Machine Learning</h2>
+                        <h5 style="color: #ccee4e">Disease Prediction</h5>
+                        <p>As a machine learning engineer, I have designed a disease prediction model using machine learning algorithms. The model is capable of analyzing patient data, such as demographic information, medical history, and test results, to predict the likelihood of various diseases. </p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ---------portfolio---------- -->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="h5.png">
+                        <br>
+                        <div class="layer">
+                            <h3>Hotel Website</h3>
+                            <p style="font-size: 13px;">A hotel website serves as a platform for promoting the hotel and its offerings, allowing guests to book rooms and services directly, providing information about the hotel, its location, amenities, and policies, offering customer service, and encouraging guests to book additional services and upgrades.<br>Download it from playstore.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="voice_ass.jpg">
+                        <br>
+                        <div class="layer">
+                            <h3>Voice Assistant</h3>
+                            <p style="font-size: 13px;">Voice assistants are software programs that respond to voice commands to assist users. They are used for hands-free control, smart home device management, and entertainment, such as playing music and answering questions. They offer a convenient and user-friendly way to interact with technology.<br>You can see the implementation here.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="ml.jpg">
+                        <br>
+                        <div class="layer">
+                            <h3>Disease Prediction</h3>
+                            <p style="font-size: 13px;">Disease prediction using AI and ML involves analyzing medical data to predict an individual's likelihood of developing a specific disease or condition. This improves the accuracy and speed of disease diagnosis and helps healthcare providers make informed treatment decisions. It aims to improve patient outcomes and reduce healthcare costs.<br>Download the application from playstore.</p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+        <!-- ------contact---------- -->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>gopikanthtirumani@gmail.com</p>
+                        <p><i class="fa-sharp fa-solid fa-square-phone"></i>9014903646</p>
+                        <div class="social-icons">
+                            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="#"><i class="fa-brands fa-blogger"></i></a>
+                        </div>
+                        <a href="gopi_resume.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" namr="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>copyright &copy;Gopikanth Tirumani.</p>
+            </div>
+        </div>
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemeu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemeu.style.right="0";
+        }
+        function closemenu(){
+            sidemeu.style.right="-200px";
+        }
+    </script>
+    </body>
+</html>
